@@ -1,0 +1,9 @@
+{
+  "products": [
+    { "name": "Laptop", "category": "Electronics" },
+    { "name": "Phone", "category": "Electronics" },
+    { "name": "Tablet", "category": "Electronics" },
+    { "name": "Headphones", "category": "Accessories" },
+    { "name": "Charger", "category": "Accessories" }
+  ]
+}

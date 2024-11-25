@@ -1,0 +1,10 @@
+<Dialog xmlns="sap.m" id="myExtensionDialog" title="Extension UI - Available Products" class="sapUiResponsiveContentPadding">
+    <content>
+        <List items="{/products}">
+        <StandardListItem title="{name}" description="{category}" />
+      </List>
+    </content>
+    <beginButton>
+        <Button id="closeButton" text="Close" press=".myCustomExtension.onCloseButtonPress" />
+    </beginButton>
+</Dialog>
